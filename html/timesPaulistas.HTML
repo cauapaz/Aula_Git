@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Times Paulistas:</h1>
+
+    <form action="#">
+        <label for="times"> Selecione seu time:</label>
+
+        <select id="time" name="time">
+
+            <option value="opcao">Opção</option>
+            <option value="sao_paulo">São Paulo</option>
+            <option value="corinthians">Corinthians</option>
+            <option value="palmeiras">Palmeiras</option>
+            <option value="ituano">Ituano</option>
+            <option value="santos">Santos</option>
+        </select>
+
+        <br></br>
+
+        <!-- Usando tag Datalist-->
+        <label for="cCid">Sua Cidade:</label>
+        <input type="text" name="cCid" id="cCid" list="cidades" autocomplete="on">
+
+        <datalist id="cidades">
+            <option value="São Paulo"></option>
+            <option value="Juquitiba"></option>
+            <option value="Valinhos"></option>
+            <option value="Sorocaba"></option>
+            <option value="Campinas"></option>
+            <option value="Barueri"></option>
+        </datalist>
+    <br></br>
+    
+    <label for="textArea">Sua Sugestão Aqui:</label>
+
+    <br></br>
+
+    <textarea name="" id="textArea" cols="50" rows="5" placeholder="Digite aqui."></textarea>
+    </form>
+</body>
+
+</html>

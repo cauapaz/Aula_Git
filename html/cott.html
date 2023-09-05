@@ -1,0 +1,166 @@
+<h1>Operadoras:</h1>
+
+<form action="mailto:cauavitorsantos20@gmail.com" method="post">
+    <fieldset>
+
+        <legend>Informação do Aluno:</legend>
+        <label for="cNome">Nome:</label>
+        <input type="text" id="cNome" required>
+
+        <label for="sNome">Sobrenome:</label>
+        <input type="text" id="sNome" required>
+
+        <label for="E-mail:">E-mail:</label>
+        <input type="email" placeholder="(cauasantos20@gmail.com)" id="E-mail" required>
+
+
+        <label for="Senha:">Senha:</label>
+        <input type="password" placeholder="(Senha Obrigatória)" required>
+
+        <br></br>
+
+        <h2>Qual Operadora você deseja?</h2>
+
+        <input type="radio" name="Operadora" id="op1">
+        <label for="op1">Vivo.</label>
+
+        <br></br>
+
+        <input type="radio" name="Operadora" id="op2">
+        <label for="op1">Oi.</label>
+
+        <br></br>
+
+        <input type="radio" name="Operadora" id="op3">
+        <label for="op1">Claro.</label>
+
+        <br></br>
+
+        <input type="radio" name="Operadora" id="op4">
+        <label for="op1">Tim.</label>
+
+        <br></br>
+
+        <input type="radio" name="Operadora" id="op5">
+        <label for="op1">Algar.</label>
+
+    </fieldset>
+    <br></br>
+
+    <h2>Qual DD você deseja?</h2>
+    <fieldset>
+
+        <legend>Informacões gerais do Aluno:</legend>
+
+        <input type="radio" name="cor" id="op1">
+        <label for="op1"></label>
+
+        <br></br>
+
+        <input type="radio" name="cor" id="op2">
+        <label for="op1"></label>
+
+        <br></br>
+
+        <input type="radio" name="cor" id="op3">
+        <label for="op1"></label>
+
+        <br></br>
+
+        <input type="radio" name="cor" id="op3">
+        <label for="op1"></label>
+
+        <br></br>
+
+        <input type="radio" name="cor" id="op4">
+        <label for="op1"></label>
+
+        <br></br>
+
+        <h2>Qual meio de condução você vai para o curso?</h2>
+
+        <input type="checkbox" name="transporte1" id="transporte1">
+        <label for="transporte1">Ônibus</label>
+
+        <br></br>
+
+        <input type="checkbox" name="transporte2" id="transporte2">
+        <label for="transporte2">Mêtro</label>
+
+        <br></br>
+
+        <input type="checkbox" name="transporte3" id="transporte3">
+        <label for="transporte3">Carro</label>
+
+        <br></br>
+
+        <input type="checkbox" name="transporte4" id="transporte4">
+        <label for="transporte4">Bicicleta</label>
+
+        <br></br>
+
+        <h2>Aonde você mora?</h2>
+
+        <label for="cCid">Em qual Cidade você mora:</label>
+        <input type="text" name="cCid" id="cCid" list="cidades" autocomplete="on">
+
+        <datalist id="cidades">
+            <option value="São Paulo"></option>
+            <option value="Juquitiba"></option>
+            <option value="Valinhos"></option>
+            <option value="Sorocaba"></option>
+            <option value="Campinas"></option>
+            <option value="Barueri"></option>
+        </datalist>
+
+        <br></br>
+
+        <label for="Bairro">Em qual Bairro você mora:</label>
+        <input type="text" name="cCid" id="Bairro" list="Bairro" autocomplete="on">
+
+        <datalist id="Bairro">
+            <option value="Santana"></option>
+            <option value="Casa Verde"></option>
+            <option value="Cachoeirinha"></option>
+            <option value="Zona Leste"></option>
+            <option value="Zona Sul"></option>
+            <option value="Zona Oeste"></option>
+        </datalist>
+    </fieldset>
+
+    <br></br>
+
+    <fieldset>
+        <legend>Avaliações:</legend>
+
+        <h2>Avalie nosso Atendimento:</h2>
+
+        <label for="times">Avaliação sobre o Curso:</label>
+
+        <select id="time" name="time">
+
+            <option value="Exelente">Exelente</option>
+            <option value="Ótimo">Ótimo</option>
+            <option value="Bom">Bom</option>
+            <option value="Rasoavel">Rasoavel</option>
+            <option value="Ruim">Ruim</option>
+            <option value="Pessimo">Pessimo</option>
+
+        </select>
+        <br></br>
+
+        <label for="textArea">Sua Sugestão Aqui:</label>
+
+        <br></br>
+
+        <textarea name="" id="textArea" cols="50" rows="5" placeholder="Digite aqui."></textarea>
+
+    </fieldset>
+    <br></br>
+
+    <input type="submit" value="Enviar">
+
+</form>
+</body>
+
+</html>
